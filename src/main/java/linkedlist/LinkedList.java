@@ -33,7 +33,7 @@ public class LinkedList {
     }
 
     public Object get(int index) {
-        if(index < 0 || index >= size) {}
+        if(index < 0 || index >= size) { return null; }
 
         Node node = head;
         int counter = 0;
